@@ -1,18 +1,19 @@
-import React from 'react'
-import './App.css'
-import Sidebar from './components/Sidebar'
+import React from "react"
+import "./App.css"
+import Sidebar from "./components/Sidebar"
+import Heading from "./components/Heading"
 
 function App() {
-  return (
-    <>
-      <div className='flex'>
-      <Sidebar/>
-      <div>
-      <h1 className='text-center text-4xl font-bold text-primary'>Hello World</h1>
-      </div>
-      </div>
-    </>
-  )
+    return (
+        <>
+            <div className="flex">
+                <Sidebar />
+                <div className="p-6 flex-1">
+                    <Heading/>
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default App
