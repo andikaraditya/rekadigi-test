@@ -6,4 +6,24 @@
     .banner-item {
         @apply px-5 py-3 text-xl text-white bg-white bg-opacity-10 rounded-xl flex items-center gap-2 hover:cursor-pointer
     }
+
+    .table-head {
+        @apply flex-1 flex text-center text-slate-400 font-semibold px-4
+    }
+
+    .warga {
+        @apply text-[#EEA849] bg-[#EEA849] bg-opacity-10 py-3 px-5 rounded-lg
+    }
+    .juragan {
+        @apply text-[#56CCF2] bg-[#56CCF2] bg-opacity-10 py-3 px-5 rounded-lg
+    }
+    .sultan {
+        @apply text-[#38EF7D] bg-[#38EF7D] bg-opacity-10 py-3 px-5 rounded-lg
+    }
+    .konglomerat {
+        @apply text-[#E100FF] bg-[#E100FF] bg-opacity-10 py-3 px-5 rounded-lg
+    }
+    .action-button {
+        @apply flex bg-opacity-50 h-[40px] px-3 text-center rounded-lg gap-3 hover:cursor-pointer
+    }
 }

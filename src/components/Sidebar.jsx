@@ -18,7 +18,7 @@ const items2 = [
 
 function Sidebar() {
     return (
-        <nav className="bg-slate-50 w-[300px] px-9 pt-7 flex flex-col h-[100vh]">
+        <nav className="bg-slate-50 w-[300px] px-9 pt-7 flex flex-col min-h-[100vh]">
             <p className="text-primary text-5xl font-bold text-center">square</p>
             <p className="text-slate-600 text-xl mt-7">Menu</p>
             {items1.map((el, index) => {
