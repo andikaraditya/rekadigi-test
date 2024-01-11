@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+    .banner-item {
+        @apply px-5 py-3 text-xl text-white bg-white bg-opacity-10 rounded-xl flex items-center gap-2 hover:cursor-pointer
+    }
+}
