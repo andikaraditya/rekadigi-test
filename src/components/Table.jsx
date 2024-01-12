@@ -4,7 +4,7 @@ import TableRow from "./TableRow";
 function Table({ data }) {
     return (
         <div className="flex flex-col mt-4 gap-3">
-            <div className="flex bg-slate-100 bg-opacity-50 h-[50px] rounded-t-lg mb-4">
+            <div className="flex bg-slate-100 bg-opacity-50 h-[50px] rounded-t-lg">
                 <div className="table-head">
                     <p className="my-auto">Customer Name</p>
                 </div>

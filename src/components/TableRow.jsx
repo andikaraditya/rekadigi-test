@@ -8,7 +8,7 @@ konglomerat = #E100FF
 
 function TableRow({ item }) {
     return (
-        <div className="flex min-h-[50px]">
+        <div className="flex min-h-[50px] items-center py-2 rounded-xl transition-all duration-200 hover:bg-opacity-30 hover:bg-slate-100">
             <div className="flex-1 px-4 font-bold">{item.name}</div>
             <div className="flex-1 px-4 font-bold">
                 <span className={item.level}>{item.level}</span>
@@ -22,7 +22,7 @@ function TableRow({ item }) {
                 })}
             </div>
             <div className="flex-1 px-4 flex gap-5">
-                <div className="bg-slate-100 action-button">
+                <div className="bg-slate-100 action-button transition-all duration-200 hover:text-white hover:bg-primary">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -37,7 +37,7 @@ function TableRow({ item }) {
                     </svg>
                     <p className="m-auto">Detail</p>
                 </div>
-                <div className="bg-slate-100 action-button">
+                <div className="bg-slate-100 action-button transition-all duration-200 hover:text-white hover:bg-primary">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -53,7 +53,7 @@ function TableRow({ item }) {
                         />
                     </svg>
                 </div>
-                <div className="bg-red-100 text-red-600 action-button">
+                <div className="bg-red-100 text-red-600 action-button transition-all duration-200 hover:text-white hover:bg-red-400">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
