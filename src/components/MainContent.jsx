@@ -85,6 +85,17 @@ function MainContent() {
                         return <TableRow key={index} item={el} />
                     })}
                 </div>
+                <div className="mt-10 bg-slate-100 p-5 rounded-xl flex">
+                    <p className="text-slate-400 font-semibold text-xl flex-1">Showing 10 Data Customers</p>
+                    <div className="flex gap-2">
+                        <p className="page-number bg-white shadow-md rounded-md text-black">1</p>
+                        <p className="page-number">2</p>
+                        <p className="page-number">3</p>
+                        <p className="page-number">...</p>
+                        <p className="page-number">38</p>
+                        <p className="page-number">Next →</p>
+                    </div>
+                </div>
             </div>
             <div className="w-[270px] flex flex-col gap-4">
                 <div className="bg-primary rounded-xl p-5 h-[300px] flex flex-col items-start justify-between">

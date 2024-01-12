@@ -42,6 +42,9 @@
     .active {
         @apply text-primary font-bold
     }
+    .page-number {
+        @apply px-4 py-1 text-slate-400 font-semibold hover:cursor-pointer hover:bg-white hover:shadow-md hover:rounded-md hover:text-black
+    }
 }
 
 #banner-image {
