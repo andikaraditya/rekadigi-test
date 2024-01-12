@@ -8,9 +8,20 @@ export default {
     extend: {
       colors: {
         primary: "#5D5FEF"
+      },
+      screens: {
+        '2xl': {'max': '1400px'},
+  
+        'xl': {'max': '1279px'},
+  
+        'lg': {'max': '1023px'},
+  
+        'md': {'max': '767px'},
+  
+        'sm': {'max': '639px'},  
+        },
       }
     },
-  },
   plugins: [],
 }
 

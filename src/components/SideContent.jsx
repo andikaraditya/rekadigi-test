@@ -2,7 +2,7 @@ import React from "react"
 
 function SideContent() {
     return (
-        <div className="w-[270px] flex flex-col gap-4">
+        <div className="w-[270px] flex flex-col gap-4 2xl:w-[200px] lg:hidden">
             <div className="bg-primary rounded-xl p-5 h-[300px] flex flex-col items-start justify-between">
                 <p className="text-white text-2xl w-4/5">See analytics of the Customer Clearly</p>
                 <button className="p-3 bg-white bg-opacity-20 rounded-xl text-white">
