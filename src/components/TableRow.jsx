@@ -8,7 +8,7 @@ konglomerat = #E100FF
 
 function TableRow({ item }) {
     return (
-        <div className="flex min-h-[50px] items-center py-2 rounded-xl transition-all duration-200 hover:bg-opacity-30 hover:bg-slate-100">
+        <div className="flex min-h-[50px] items-center py-2 rounded-md transition-all duration-200 hover:bg-opacity-30 hover:bg-slate-200">
             <div className="flex-1 px-4 font-bold">{item.name}</div>
             <div className="flex-1 px-4 font-bold">
                 <span className={item.level}>{item.level}</span>
