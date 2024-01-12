@@ -13,9 +13,6 @@ function App() {
                     <Heading/>
                     <div className="flex mt-5 gap-5">
                         <MainContent/>
-                        <div className="w-[300px]">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci cumque nobis ab dignissimos ea quisquam rem atque totam ducimus accusamus quaerat, corrupti illo labore necessitatibus quo ad architecto sit deleniti.
-                        </div>
                     </div>
                 </div>
             </div>

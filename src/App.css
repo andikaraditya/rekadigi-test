@@ -28,6 +28,14 @@
     .action-button {
         @apply flex bg-opacity-50 h-[40px] px-3 text-center rounded-lg gap-3 hover:cursor-pointer
     }
+    .top-menu-item {
+        @apply text-slate-600 
+    }
+    .rank-1 {
+        @apply absolute right-2 top-[-10px] bg-[#F17300] w-8 h-8 text-center text-white font-bold pt-[0.1rem];
+
+        box-shadow: 3px 3px #464646;
+    }
 }
 
 #banner-image {
