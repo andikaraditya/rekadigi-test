@@ -4,7 +4,7 @@
 
 @layer {
     .banner-item {
-        @apply px-5 py-3 text-xl text-white bg-white bg-opacity-10 rounded-xl flex items-center gap-2 hover:cursor-pointer z-10;
+        @apply px-5 py-3 text-xl font-semibold text-white bg-white bg-opacity-10 rounded-xl flex items-center gap-2 hover:cursor-pointer z-10 transition-all duration-200 hover:bg-white hover:text-primary; 
         
         backdrop-filter: blur(5px);
     }

@@ -19,7 +19,7 @@ function Banner() {
                         height="16"
                         fill="currentColor"
                         viewBox="0 0 16 16"
-                        className="text-slate-300 h-[50%] w-auto ms-4"
+                        className="text-slate-300 h-[50%] w-auto ms-4 cursor-pointer"
                     >
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                     </svg>
@@ -29,8 +29,8 @@ function Banner() {
                         placeholder="Search Customer"
                         className="h-[90%] flex-1"
                     />
-                    <div className="bg-primary h-[80%] flex px-5 rounded-xl me-1">
-                        <p className="m-auto text-white font-semibold">Search</p>
+                    <div className="bg-primary group h-[80%] flex px-5 rounded-xl me-1 hover:cursor-pointer hover:bg-white hover:border-primary border-2 box-border">
+                        <p className="m-auto text-white font-semibold group-hover:text-primary">Search</p>
                     </div>
                 </div>
                 <div className="banner-item">
