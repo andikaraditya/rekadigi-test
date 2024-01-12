@@ -1,8 +1,10 @@
 import React from "react"
+import BannerImage from "../assets/banner-image.png"
 
 function Banner() {
     return (
-        <div className="bg-primary px-4 py-5 rounded-2xl">
+        <div className="bg-primary px-4 py-5 rounded-2xl relative overflow-hidden">
+            <img id="banner-image" className="absolute top-0 right-0 h-[100%]" src={BannerImage} alt="" />
             <h2 className="text-white font-bold text-2xl">Customer</h2>
             <p className="text-white w-[40%] mt-3">
                 On this menu you will be able to create, edit, and also delete the customer. Also
@@ -10,7 +12,7 @@ function Banner() {
             </p>
             <div className="flex gap-5 mt-6">
                 <div className="banner-item">+ Add New Customer</div>
-                <div className="bg-white flex flex-1 gap-4 items-center rounded-xl">
+                <div className="bg-white flex flex-1 gap-4 items-center rounded-xl z-10">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -21,7 +23,12 @@ function Banner() {
                     >
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                     </svg>
-                    <input type="text" name="search" placeholder="Search Customer" className="h-[90%] flex-1"/>
+                    <input
+                        type="text"
+                        name="search"
+                        placeholder="Search Customer"
+                        className="h-[90%] flex-1"
+                    />
                     <div className="bg-primary h-[80%] flex px-5 rounded-xl me-1">
                         <p className="m-auto text-white font-semibold">Search</p>
                     </div>
