@@ -36,6 +36,12 @@
 
         box-shadow: 3px 3px #464646;
     }
+    .nav-item {
+        @apply mt-6 px-7 text-slate-500 flex text-xl font-semibold items-center hover:cursor-pointer relative
+    }
+    .active {
+        @apply text-primary font-bold
+    }
 }
 
 #banner-image {
