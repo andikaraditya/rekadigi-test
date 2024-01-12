@@ -1,8 +1,22 @@
-# React + Vite
+# Technical Test
+Frontend technical test for PT Daya Rekadigital Indonesia, made by [Andika Radityatama](https://www.linkedin.com/in/andikaraditya/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# How to run the app
+>prerequisite
+```
+Node JS
+```
 
-Currently, two official plugins are available:
+>running the app
+```
+>npm i
+>npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Description
+>Aplikasi dibuat menggunakan React JS dan Vite. React JS dipilih mempermudah pembuatan aplikasi berbasis komponen yang mana bagian-bagian aplikasi dapat dipecah kedalam komponen modular yang dapat digunakan kembali atau reusable. Selain itu arsitektur komponen mempermudah.
+
+> Komponen dapat digunakan kembali di berbagai bagian aplikasi atau bahkan di proyek lain, sehingga menghasilkan codebase yang lebih mudah dikelola dan scale up.
+
+> Tailwind CSS digunakan untuk mempercepat development dan menghasilkan desain yang konsisten serta responsif
+
