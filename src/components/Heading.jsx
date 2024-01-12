@@ -9,10 +9,10 @@ function Heading() {
                 <div className="hover:cursor-pointer text-xl w-[230px] font-bold  h-[40px] text-center text-primary border-b-2 border-primary">
                     Customer
                 </div>
-                <div className="hover:cursor-pointer text-xl w-[230px] font-bold text-slate-400 h-[40px] text-center">
+                <div className="hover:cursor-pointer text-xl w-[230px] font-bold text-slate-400 h-[40px] text-center hover:text-primary hover:border-b-2 hover:border-primary transition-all duration-100">
                     Promo
                 </div>
-                <div className="hover:cursor-pointer text-xl w-[230px] font-bold text-slate-400 h-[40px] text-center">
+                <div className="hover:cursor-pointer text-xl w-[230px] font-bold text-slate-400 h-[40px] text-center hover:text-primary hover:border-b-2 hover:border-primary transition-all duration-100">
                     Voucher
                 </div>
             </div>
