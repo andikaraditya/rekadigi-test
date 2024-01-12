@@ -4,9 +4,9 @@ import BannerImage from "../assets/banner-image.png"
 function Banner() {
     return (
         <div className="bg-primary px-4 py-5 rounded-2xl relative overflow-hidden">
-            <img id="banner-image" className="absolute top-0 right-0 h-[100%]" src={BannerImage} alt="" />
+            <img id="banner-image" className="absolute z-0 top-0 right-0 h-[100%] transition-all duration-200 2xl:right-[-300px]" src={BannerImage} alt="" />
             <h2 className="text-white font-bold text-2xl">Customer</h2>
-            <p className="text-white w-[40%] mt-3">
+            <p className="text-white w-[40%] mt-3 z-10">
                 On this menu you will be able to create, edit, and also delete the customer. Also
                 you can manage it easily
             </p>

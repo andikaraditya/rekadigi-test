@@ -34,8 +34,8 @@ function Sidebar() {
         ${open ? "w-[300px]" : "w-[100px]"}
         `}>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16"
-                className={`absolute w-[40px] rotate-180 h-auto text-primary  bg-white rounded-full cursor-pointer
-                ${!open ? "rotate-0 top-3 left-9" : "right-[-20px] top-[8rem]"}
+                className={`absolute w-[40px] h-auto text-primary  bg-white rounded-full cursor-pointer
+                ${!open ? "rotate-0 top-3 left-9" : "rotate-180 right-[-20px] top-[8rem]"}
                 `}
                 onClick={() => setOpen(!open)}
             >
